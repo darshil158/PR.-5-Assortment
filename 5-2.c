@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
     int r,c,sum=0;
-    printf("Enter the no. of rows :- ");
+    printf("Enter the number of Rows :- ");
     scanf("%d",&r);
-    printf("Enter the no. of columns :- ");
+    printf("Enter the number of Columns :- ");
     scanf("%d",&c);
     int a[r][c];
     printf("\nEnter Elements of Array A :- \n");
@@ -29,6 +29,6 @@ int main() {
             }
         }
     }
-    printf("\nMaximum element of array A : %d\n",max);
+    printf("\nMaximum Element of array A : %d\n",max);
     return 0;
 }
