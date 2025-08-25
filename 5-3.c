@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
     int r,c,sum=0;
-    printf("Enter the no. of rows :- ");
+    printf("Enter the number of rows :- ");
     scanf("%d",&r);
-    printf("Enter the no. of columns :- ");
+    printf("Enter the number of columns :- ");
     scanf("%d",&c);
     int a[r][c];
     printf("\nEnter Elements of Array A :- \n");
